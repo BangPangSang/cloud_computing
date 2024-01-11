@@ -21,5 +21,4 @@ Route::get('/', function () {
 
 Route::post('/upload', [FileController::class, 'upload']);
 Route::get("/list", [FileController::class, 'list']);
- Route::get('/display/{folder}/{file}', DisplayController::class)->name('displayFile');
-
+//  Route::get('/display/{folder}/{file}', DisplayController::class)->name('displayFile');
